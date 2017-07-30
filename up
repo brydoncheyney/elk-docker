@@ -1,0 +1,4 @@
+sudo sysctl -w vm.max_map_count=262144
+sudo docker-compose up elk
+
+echo "Now add some logs! https://elk-docker.readthedocs.io/#creating-dummy-log-entry"
